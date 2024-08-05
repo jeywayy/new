@@ -1,0 +1,15 @@
+// Variables for MadLibs
+let noun = "dragon"; // a word (noun)
+let verb = "fly"; // a word (verb)
+let adjective = "colorful"; // a word (adjective)
+let number = 7; // a numeric value
+let calculatedNumber = number * 2; // a number calculated from an expression
+let isMagical = true; // a true/false value
+let userInput = prompt("Enter a place:"); // value entered by the user
+
+// Creating the story
+let story= `Once upon a time, in a ${adjective} land, there was a ${noun} that could ${verb} like no other. 
+Every day, it would fly around ${userInput}, showing off its magical powers to ${calculatedNumber} amazed villagers. 
+Isn't it ${isMagical ? 'true' : 'false'} that magic can be found in the most unexpected places?`;
+
+// Output the story to the consoleconsole.log(story);
